@@ -40,7 +40,7 @@ function firstQuestion() {
         confirmButtonText: CONFIG.btnIntro
     }).then(function() {
         $('.content').show(200);
-        var audio = new Audio('sound/');
+        var audio = new Audio('sound/WhatsApp Audio 2024-07-27 at 7.13.48 PM.mpeg.mp3');
         audio.play();
     })
 }
